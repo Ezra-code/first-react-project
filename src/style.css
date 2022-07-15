@@ -1,0 +1,42 @@
+body{
+    background-color: #282D35;
+    margin: 0;
+    font-family: inter, 'sanserif';
+}
+.nav{
+    background-color: #21222A;
+    display: flex;
+    color: wheat;
+    justify-content: space-between;
+    padding: 10px;
+    height: 90px;
+}
+
+.left{
+    color: #61DAFB;
+    font-size: 35px;
+    font-weight: bolder;
+    
+}
+
+.right{
+
+    font-size: 35px;
+    color: white;
+}
+
+ul{
+    color: azure;
+    margin: 15px 8px;
+}
+li{
+    padding-block: 12px;
+}
+li::marker{
+    font-size: 1.5rem;
+    color: #61DAFB;
+}
+main > h1{
+    color: wheat;
+    margin: 12px 15px;
+}
